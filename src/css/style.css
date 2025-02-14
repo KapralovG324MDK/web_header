@@ -33,6 +33,7 @@ body{
 .header-container-logo
 {
     margin: 50px;
+    padding-top: 15px;
 }
 
 .title
@@ -89,8 +90,8 @@ body{
 }
 
 .navi
-{   
-
+{
+    
 }
 
 .construct
@@ -99,3 +100,54 @@ body{
     height: 298px;
 }
 
+.cons_img1
+{
+    border-radius: 55px;
+}
+
+.cons_img1:hover
+{
+
+}
+
+.footer_all
+{
+    background: #1D1D1F;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+
+}
+
+.footer_shop
+{
+
+}
+
+.f_list
+{
+    color:white;
+    list-style: none;
+}
+
+.footer_border
+{
+
+
+    max-width:1920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color:silver;
+
+    
+}
+
+.scroll
+{
+    height: 2000px;
+    overflow: scroll;
+    overflow: visible;
+}
