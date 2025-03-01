@@ -103,6 +103,7 @@ body{
 .cons_img1
 {
     border-radius: 55px;
+    box-shadow: none;
 }
 
 .cons_img1:hover
@@ -138,9 +139,9 @@ body{
     max-width:1920px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    color:silver;
+    justify-content: center;
+    gap: 500px;
+    color: silver;
 
     
 }
@@ -148,6 +149,66 @@ body{
 .scroll
 {
     height: 2000px;
-    overflow: scroll;
-    overflow: visible;
+    overflow: auto;
 }
+
+.foot_content
+{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.number
+{
+    margin: 1px;
+}
+
+.logo_line
+{
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: silver;
+}
+
+.logo_end
+{
+    font-size: 20px;
+    color:white;
+
+}
+
+.mini_sign
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.gap_nav
+{
+    margin-top: 68px;
+}
+
+.vot
+{
+    font-size: 32px;
+    
+
+}
+
+.arrows
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
