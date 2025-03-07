@@ -47,7 +47,7 @@ body{
 {
     color:white;
     display: inline;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 1px;
 }
 
@@ -100,22 +100,10 @@ body{
     height: 298px;
 }
 
-.cons_img1
-{
-    border-radius: 55px;
-    box-shadow: none;
-}
-
-.cons_img1:hover
-{
-
-}
 
 .footer_all
 {
     background: #1D1D1F;
-    position: fixed;
-    bottom: 0;
     width: 100%;
 
 
@@ -185,6 +173,8 @@ body{
 
 }
 
+
+
 .mini_sign
 {
     display: flex;
@@ -212,3 +202,40 @@ body{
     align-items: center;
 }
 
+.cons_img1
+{
+    position: relative;
+    display: inline-block;
+    border-radius: 55px;
+    box-shadow: none;
+}
+
+.label_con
+{
+    background:
+    url(file:///C:/Users/stud_307.R307-01/Documents/324/web_header-main/src/img/Cons.png);
+    border-radius: 32px;
+    width: 1640px;
+    height: 298px;
+}
+
+.h11
+{
+    color: black;
+    text-align: left;
+    padding-top: 180px;
+    padding-left: 50px;
+    font-size: 96px;
+    text-decoration: none;
+    
+}
+
+.txt_up /*пример текст над изображением*/
+{
+    background: #000
+    url("file:///C:/Users/stud_307.R307-01/Documents/324/web_header-main/src/img/shop.png");
+    color: black;
+    display: flex;
+    justify-content: center;
+
+}
